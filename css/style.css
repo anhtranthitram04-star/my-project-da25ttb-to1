@@ -1,1 +1,67 @@
-/* viết mã css*/
+/* viet ma css*/
+/* Viết mã CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+#hoten {
+    text-transform: uppercase;
+    font-size: 32pt;
+    font-weight: bolder;
+    color: #00ff00;
+}
+
+.tieude {
+    text-transform: uppercase;
+    max-width: 400px;
+    width: 100%;
+    padding: 15px;
+    color: red;
+    font-weight: bolder;
+    font-size: 20pt;
+    border-left: 7px solid gray;
+}
+
+#mota {
+    letter-spacing: 4px;
+    line-height: 2;
+    text-align: justify;
+}
+
+#bang1 img {
+    width: 150px;
+    height: auto;
+}
+
+table#bang2 {
+    width: 100%;
+    max-width: 500px;
+    margin: 15px 0px;
+}
+
+table#bang2, table#bang2 td, table#bang2 tr, table#bang2 th {
+    border: 1px solid red;
+    padding: 7px;
+    border-collapse: collapse;
+}
+
+/* Định dạng cho danh sách sở thích và mục tiêu */
+ul, ol {
+    margin: 15px 0px;
+    list-style-type: none;
+    list-style-position: inside;
+    max-width: 500px;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 2px solid green;
+}
+
+li:hover {
+    background-color: orange;
+    font-weight: bolder;
+}

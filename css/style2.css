@@ -1,0 +1,31 @@
+/* Viết mã CSS */
+*{
+	margin: 0px;
+	padding:0px;
+	font-family: arial;
+}
+h2{
+	color:purple;
+}
+form {
+	text-align:center;
+	font-size:35px;
+	background-color:lightgray;
+	margin: 50px 100px;	
+}
+.button{
+	padding:5px 30px;
+	background-color:lightblue;
+}
+.form-control{
+	padding:5px 30px;
+	background-color:lightpink;
+}
+.button:hover{
+	background-color:gray;
+	color:white;
+	
+}
+/*.form-control:hover{
+	background-color:gray;
+}*/
